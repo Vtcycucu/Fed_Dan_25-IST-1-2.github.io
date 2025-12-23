@@ -353,3 +353,28 @@ audio {
         margin-bottom: 15px;
     }
 }
+
+@media screen and (max-width: 360px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .block,
+    .block__1,
+    .block__2,
+    .block__3,
+    .block__5,
+    .table,
+    .block__f {
+        padding: 15px;
+        margin: 20px 10px;
+    }
+}
