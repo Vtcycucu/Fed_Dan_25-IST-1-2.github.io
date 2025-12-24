@@ -190,7 +190,6 @@ h2 {
 }
 
 .table {
-    overflow-x: auto;
     display: flex;
     flex-wrap: wrap;
     background-color: #f5f1e8;
@@ -376,5 +375,15 @@ audio {
     .block__f {
         padding: 15px;
         margin: 20px 10px;
+    }
+}
+@media screen and (max-width: 600px) {
+    table {
+        font-size: 12px;
+    }
+
+    th,
+    td {
+        padding: 3px;
     }
 }
